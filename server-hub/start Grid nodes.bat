@@ -1,0 +1,1 @@
+Java -jar C:\Repo\node.js-testauto-framework\server-hub\selenium-server-standalone-3.0.1.jar -role node -browser browserName=firefox,maxInstances=40 -browser browserName=chrome,maxInstances=40 -browser browserName=iexplore,maxInstances=5  -hub http://localhost:4444/grid/register

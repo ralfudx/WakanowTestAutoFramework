@@ -1,0 +1,26 @@
+{
+  "name": "Company_Name",
+  "version": "0.0.1",
+  "description": "Common libraries that are used in every test framework.",
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "assert": "^1.4.1",
+    "async": "latest",
+    "chai": "latest",
+    "fs": "latest",
+    "mocha": "latest",
+    "path": "latest",
+    "requestify": "latest",
+    "selenium-standalone": "^6.15.3",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "ui-select": "^0.19.8"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive test/webappname/sample_test --reporter mochawesome --reporter-options reportFilename=sampletest -t 9000000"
+  },
+  "author": "Raphael Edwards <oausocials2007@yahoo.com>",
+  "license": "Copyright :)",
+  "devDependencies": {
+    "mochawesome": "^3.1.0"
+  }
+}

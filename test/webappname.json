@@ -1,0 +1,43 @@
+{
+  "default_browser": "chrome",
+  
+  "homepage":{
+    "gmailurl": "https://mail.google.com/",
+    "gmailtitle": "Gmail"
+  },
+
+  "type":{
+    "css":"css",
+    "id":"id",
+    "xpath":"xpath",
+    "class":"class",
+    "name":"name"
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
